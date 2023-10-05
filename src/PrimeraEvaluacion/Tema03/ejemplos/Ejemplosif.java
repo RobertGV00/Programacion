@@ -11,8 +11,14 @@ public class Ejemplosif {
         if (edad >= 18) {
             System.out.println("Pasa puede ver la peli");
         }
-        else {
-            System.out.println("Lo siento, no puedes pasar");
+      // en vez de una expresion, puedo poner una variable boolean directamente
+        // Entonces, el ejemplo anterior podria quedar asi:
+        boolean mayorDeEdad = edad >= 18;
+        if (mayorDeEdad) {
+            System.out.println("Solo poneiendo la variable mayor de edad, si es true se va a imprimir esto");
+        }
+        if (!mayorDeEdad) {
+            System.out.println("No eres mayor de edad");
         }
     }
 }
