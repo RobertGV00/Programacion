@@ -15,12 +15,6 @@ public class Ejercicio05 {
         // New ***** OJO ***** CUANDO SE TRATA DE UN STRING, LA COMPARACION NO SE HACE CON ==
         // SE HACE CON EQUALS : cadena1.equals(cadena2)
         // Por ejemplo, en este caso pondriamos:
-        if (nombre.equals(user) && contraseña.equals(pass)) {
-            System.out.println("Has podido acceder");
-        }
-        else {
-            System.out.println("No puedes acceder");
-        }
         if (nombre.equals(user)) {
             System.out.println();
         }
