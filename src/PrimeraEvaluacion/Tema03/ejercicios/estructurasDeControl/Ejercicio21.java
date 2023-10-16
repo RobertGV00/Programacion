@@ -10,9 +10,23 @@ public class Ejercicio21 {
         int a = teclado.nextInt();
         int b = teclado.nextInt();
         int suma = 0;
-        for (int i = a; i < b; i ++) {
 
+       int mayor , menor;
+       if (a < b){
+           mayor = b;
+           menor = a;
+           System.out.println("El numero a es menor que el b");
+       }
+       else {
+           mayor = a;
+           menor = b;
+           System.out.println("El numero b es menor que el a");
+       }
+        for (int i = menor; i <= mayor; i ++) {
+suma = suma + i;
+            System.out.println("Sumas = " + i + ": " + suma);
         }
+        System.out.println("Suma total = " + suma);
         }
     }
 
