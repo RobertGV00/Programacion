@@ -10,7 +10,9 @@ public class Ejercicio28 {
         int numero = 1;
         int n = teclado.nextInt();
         for (int i = 1; i <= n; i++) {
-
+            if (i % multiplo == 0) {
+    System.out.println(i + " ");
+}
         }
     }
 
