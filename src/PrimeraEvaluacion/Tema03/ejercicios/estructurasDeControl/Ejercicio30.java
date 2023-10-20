@@ -16,7 +16,6 @@ public static void main(String[] args) {
     int n8 = teclado.nextInt();
 
     for (int i = 0; i != 0; i++) {
-
     }
 }
 }
