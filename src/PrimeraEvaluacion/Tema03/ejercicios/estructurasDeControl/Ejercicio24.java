@@ -13,15 +13,15 @@ int mayor, menor;
 if (a > b) {
     mayor = a;
     menor = b;
-}else {
+}else{
     mayor = b;
     menor = a;
 }
         for (int i = 1; i <= menor; i++) {
-            System.out.println();
             for (int j = 1; j <= mayor; j++) {
                 System.out.print(caracter + " ");
             }
+            System.out.println();
         }
     }
 }

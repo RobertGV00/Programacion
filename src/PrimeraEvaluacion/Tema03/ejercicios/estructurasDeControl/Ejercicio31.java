@@ -10,12 +10,10 @@ public class Ejercicio31 {
         String caracter = "*";
 int suma = 1;
         for (int i = 1; i <=n; i++) {
-            System.out.println();
             for (int j = 1; j <i; j++) {
                 System.out.print(caracter);
-
             }
-
+            System.out.println();
         }
     }
 }
