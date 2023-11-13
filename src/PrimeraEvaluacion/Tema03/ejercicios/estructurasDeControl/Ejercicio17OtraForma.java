@@ -14,23 +14,30 @@ public class Ejercicio17OtraForma {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
+    double helado = 1.90;
+    double oreo = 1.00;
+    double kitkat = 1.50;
+    double brownie = 0.75;
+    double lacasitos = 0.95;
+
     String topping = teclado.nextLine();
     switch (topping) {
         case "oreo":
-            System.out.println("El topping de Oreo cuesta : 1.00€" );
+            System.out.println("El topping de Oreo cuesta : " + oreo  + "€. El precio total del helado es: "+(helado + oreo) + "€" );
             break;
         case "kitkat":
-            System.out.println("El topping de KitKat cuesta : 1.50€" );
+            System.out.println("El topping de KitKat cuesta : " + kitkat + "€. El precio total del helado es: "+(helado + kitkat) + "€" );
             break;
         case "brownie":
-            System.out.println("El topping de Brownie cuesta : 0.75€" );
+            System.out.println("El topping de Brownie cuesta : " + brownie  + "€. El precio total del helado es: "+(helado + brownie) + "€");
             break;
         case "lacasitos":
-            System.out.println("El topping de Lacasitos cuesta : 0.95€" );
+            System.out.println("El topping de Lacasitos cuesta : " + lacasitos + "€. El precio total del helado es: "+(helado + lacasitos) + "€" );
            break;
         default:
             System.out.println("No dispones de ese topping, lo siento. ");
-            System.out.println("El helado sin topping cuesta 1.90€");
+            System.out.println("El helado sin topping cuesta " + helado + "€");
     }
+
     }
 }
