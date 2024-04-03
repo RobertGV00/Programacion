@@ -1,5 +1,7 @@
 package segundaevaluacion.poo.clasesyobjetos.ejercicios.hoteles;
 
+import java.util.Objects;
+
 public class Hotel {
     private int idHotel;
     private Zona zona;
@@ -38,5 +40,20 @@ public class Hotel {
                 ", zona=" + zona +
                 ", precio=" + precio +
                 '}';
+    }
+
+    // comparar
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Hotel hotel = (Hotel) o;
+        return idHotel == hotel.idHotel && Double.compare(precio, hotel.precio) == 0 && zona == hotel.zona;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(idHotel, zona, precio);
     }
 }

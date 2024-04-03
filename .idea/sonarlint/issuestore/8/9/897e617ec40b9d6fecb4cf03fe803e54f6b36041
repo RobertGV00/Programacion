@@ -1,0 +1,18 @@
+
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Óİ‰êúÿÿÿÿ8Ï­ĞÎ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ŠÚş8Ï­ĞÎ1
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "numeros".(üò²•ıÿÿÿÿ8Ï­ĞÎ1
+\
+java:S1854"?Remove this useless assignment to local variable "numeroFinal".(µ®êÄ8ß­ĞÎ1
+]
+java:S1854";Remove this useless assignment to local variable "numeros".(ç“ªıÿÿÿÿ8ß­ĞÎ1
+X
+java:S1854";Remove this useless assignment to local variable "tamaÃ±o".( ŠÚş8ß­ĞÎ1
+I
+java:S1481",Remove this unused "tamaÃ±o" local variable.( ŠÚş8ß­ĞÎ1
+N
+java:S1481",Remove this unused "numeros" local variable.(ç“ªıÿÿÿÿ8ß­ĞÎ1
+M
+java:S1481"0Remove this unused "numeroFinal" local variable.(µ®êÄ8ß­ĞÎ1

@@ -1,0 +1,8 @@
+
+ƒ
+java:S1319!"aThe type of "mapa" should be an interface such as "Map" rather than the implementation "HashMap".(…´ëøÿÿÿÿ8ØôÊÄÑ1
+m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÿŞ8ØôÊÄÑ1
+ƒ
+java:S14886"aImmediately return this expression instead of assigning it to the temporary variable "academico".(­´Êşÿÿÿÿ8ØôÊÄÑ1
+T
+java:S1128"2Remove this unused import 'javax.print.DocFlavor'.(ÍØƒïúÿÿÿÿ8ëãÏÄÑ1

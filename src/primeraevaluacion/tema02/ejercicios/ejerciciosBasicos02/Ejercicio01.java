@@ -23,6 +23,8 @@ Población mundial del planeta tierra.
         System.out.println("El empleado esta casado: " + estadoCivil);
         //Valor máximo no modificable: 999999.
         int dos;
+        char caracter = 'C';
+        System.out.println("El caracter elegido es: " + caracter);
 
     }
 }

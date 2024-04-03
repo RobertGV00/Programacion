@@ -1,0 +1,9 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "b".(˜çû•øÿÿÿÿ
+A
+java:S1481"&Remove this unused "b" local variable.(˜çû•øÿÿÿÿ
+l
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ö‘É«
+=
+java:S1125"'Remove the unnecessary boolean literal.(ßåÑ—
