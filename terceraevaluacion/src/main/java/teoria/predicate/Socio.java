@@ -1,8 +1,8 @@
-package teoria.biblioteca;
+package teoria.predicate;
 
 import java.time.LocalDate;
 
-public class Socio{
+public class Socio {
     private String nombre;
     private String apellidos;
     private LocalDate fechaNac;
